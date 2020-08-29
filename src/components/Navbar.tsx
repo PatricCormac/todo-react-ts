@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
       <div className="nav-wrapper">
         <a href="/" className="brand-logo">TypeScript</a>
         <ul className="right hide-on-med-and-down">
-          <li><a href="/">Списов дел</a></li>
+          <li><a href="/">Список дел</a></li>
           <li><a href="/">Информация</a></li>
         </ul>
       </div>

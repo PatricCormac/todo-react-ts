@@ -15,3 +15,29 @@ body {
 .input-field {
   margin-top: 2rem;
 }
+
+.todo {
+  margin-bottom: 1rem;
+}
+
+.todo.completed span {
+  text-decoration: line-through;
+}
+
+.todo label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 1rem;
+  background-color: rgb(211, 211, 211);
+}
+
+.todo label input {
+  z-index: 1;
+}
+
+.todo i {
+  z-index: 2;
+}
